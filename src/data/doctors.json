@@ -1,0 +1,22 @@
+  [
+  {
+    "id": "1",
+    "name": "Dr. Ayesha Khan",
+    "specialization": "Cardiologist",
+    "profileImage": "/assets/doctor2.jpg",
+    "available": true
+  },
+  {
+    "id": "2",
+    "name": "Dr. Rajiv Sharma",
+    "specialization": "Dermatologist",
+    "profileImage": "/assets/doctor1.jpg",
+    "available": true
+  },{
+    "id": "3",
+    "name": "Dr. Sreeleela",
+    "specialization": "Cardiologist",
+    "profileImage": "/assets/doctor3.jpg",
+    "available": true
+  }
+]
