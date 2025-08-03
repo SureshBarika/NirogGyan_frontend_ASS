@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import LandingPage from "../../healthcare_app/src/pages/LandingPage";
-import DoctorProfile from "../../healthcare_app/src/pages/DoctorProfile";
-import BookAppointment from "../../healthcare_app/src/pages/BookAppointment";
+import LandingPage from "./pages/LandingPage";
+import DoctorProfile from "./pages/DoctorProfile";
+import BookAppointment from "./pages/BookAppointment";
 import DoctorRegistration from "./pages/RigisterDoctor";  
 import doctorsData from "./data/data";
 
