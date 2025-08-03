@@ -28,7 +28,10 @@ function BookAppointment({ doctors, updateDoctor }) {
       form.classList.add("was-validated");
       return;
     }
+    setSubmitted(true);
     updateDoctor(id);
+
+   
   };
 
   if (!doctor) {
@@ -44,6 +47,7 @@ function BookAppointment({ doctors, updateDoctor }) {
       <div className="container py-5 text-center">
         <h2 className="text-success">Appointment Confirmed!</h2>
         <p className="mt-3">You have booked an appointment with <strong>{doctor.name}</strong>.</p>
+        <button className="btn btn-primary" onClick={() => navigate("/")}>Back</button>
       </div>
     );
   }
